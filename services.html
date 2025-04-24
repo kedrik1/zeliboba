@@ -1,0 +1,424 @@
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Автосалон Зелибоба - Послуги</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="css/style_services.css">
+</head>
+<body class="bg-gray-100">
+    <header class="bg-gradient-to-r from-blue-900 to-blue-700 text-white shadow-lg">
+        <div class="container mx-auto px-4 py-6">
+            <div class="flex flex-col md:flex-row justify-between items-center">
+                <div class="flex items-center mb-4 md:mb-0">
+                    <img src="img/frame1.png" alt="Логотип Зелибоба" class="logo mr-4">
+                    <h1 class="text-3xl font-bold neon-text">Автосалон "Зелибоба"</h1>
+                </div>
+                <div class="flex items-center space-x-4">
+                    <a href="https://t.me/korolevskiixvii" class="text-white hover:text-blue-300">
+                        <i class="fab fa-telegram text-2xl"></i>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <nav class="bg-white shadow-md sticky top-0 z-50">
+        <div class="container mx-auto px-4">
+            <ul class="flex flex-wrap justify-around md:justify-center py-4">
+                <li class="mx-2"><a href="index.html" class="block px-4 py-2 text-blue-900 hover:bg-blue-100 rounded-lg btn-hover">Головна</a></li>
+                <li class="mx-2"><a href="about.html" class="block px-4 py-2 text-blue-900 hover:bg-blue-100 rounded-lg btn-hover">Про нас</a></li>
+                <li class="mx-2"><a href="services.html" class="block px-4 py-2 text-blue-900 font-bold hover:bg-blue-100 rounded-lg btn-hover">Послуги</a></li>
+                <li class="mx-2"><a href="feedback.html" class="block px-4 py-2 text-blue-900 hover:bg-blue-100 rounded-lg btn-hover">Відгуки</a></li>
+                <li class="mx-2"><a href="location.html" class="block px-4 py-2 text-blue-900 hover:bg-blue-100 rounded-lg btn-hover">Контакти</a></li>
+                <li class="mx-2"><a href="info_block.html" class="block px-4 py-2 text-blue-900 hover:bg-blue-100 rounded-lg btn-hover">Інфо</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <main class="container mx-auto px-4 py-8 fade-in">
+        <section class="bg-gradient-to-r from-blue-800 to-blue-600 text-white rounded-xl shadow-xl p-8 mb-12">
+            <div class="flex flex-col md:flex-row items-center">
+                <div class="md:w-2/3 mb-8 md:mb-0">
+                    <h2 class="text-4xl font-bold mb-4">Наші послуги</h2>
+                    <p class="text-xl mb-6">"Зелибоба" пропонує широкий спектр послуг для ваших автомобілів. Від продажу нових та б/у авто до повного сервісного обслуговування.</p>
+                    <a href="#contact" class="bg-white text-blue-800 px-6 py-3 rounded-lg font-bold hover:bg-blue-100 transition duration-300 inline-block">Замовити послугу</a>
+                </div>
+                <div class="md:w-1/3 flex justify-center">
+                    <img src="img/frame1.png" alt="Логотип Зелибоба" class="w-64 h-auto">
+                </div>
+            </div>
+        </section>
+
+        <section class="mb-16">
+            <div class="flex flex-wrap justify-center mb-8 border-b border-gray-200">
+                <button class="tab-button active px-6 py-3 text-lg font-medium mx-2" data-tab="sales">Продаж авто</button>
+                <button class="tab-button px-6 py-3 text-lg font-medium mx-2" data-tab="leasing">Лізинг</button>
+                <button class="tab-button px-6 py-3 text-lg font-medium mx-2" data-tab="trade-in">Trade-in</button>
+                <button class="tab-button px-6 py-3 text-lg font-medium mx-2" data-tab="service">Сервіс</button>
+                <button class="tab-button px-6 py-3 text-lg font-medium mx-2" data-tab="finance">Фінансування</button>
+            </div>
+
+            <div id="sales" class="tab-content active">
+                <h3 class="text-2xl font-bold mb-6 text-blue-900">Продаж автомобілів</h3>
+                <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+                    <div class="bg-white p-6 rounded-xl service-card">
+                        <div class="service-icon">
+                            <i class="fas fa-car"></i>
+                        </div>
+                        <h4 class="text-xl font-bold mb-3">Нові автомобілі</h4>
+                        <p class="text-gray-600 mb-4">Широкий вибір нових автомобілів від провідних світових виробників з офіційною гарантією.</p>
+                        <div class="price-tag">Від $15,000</div>
+                    </div>
+                    <div class="bg-white p-6 rounded-xl service-card">
+                        <div class="service-icon">
+                            <i class="fas fa-car-side"></i>
+                        </div>
+                        <h4 class="text-xl font-bold mb-3">Автомобілі з пробігом</h4>
+                        <p class="text-gray-600 mb-4">Перевірені автомобілі з пробігом, які пройшли повну технічну перевірку.</p>
+                        <div class="price-tag">Від $5,000</div>
+                    </div>
+                    <div class="bg-white p-6 rounded-xl service-card">
+                        <div class="service-icon">
+                            <i class="fas fa-shield-alt"></i>
+                        </div>
+                        <h4 class="text-xl font-bold mb-3">Гарантія на авто</h4>
+                        <p class="text-gray-600 mb-4">Розширена гарантія на всі автомобілі, що включає механічні та електричні компоненти.</p>
+                        <div class="price-tag">Від $500/рік</div>
+                    </div>
+                </div>
+            </div>
+
+            <div id="leasing" class="tab-content hidden">
+                <h3 class="text-2xl font-bold mb-6 text-blue-900">Лізингові програми</h3>
+                <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+                    <div class="bg-white p-6 rounded-xl service-card">
+                        <div class="service-icon">
+                            <i class="fas fa-file-contract"></i>
+                        </div>
+                        <h4 class="text-xl font-bold mb-3">Корпоративний лізинг</h4>
+                        <p class="text-gray-600 mb-4">Спеціальні умови для бізнесу з мінімальним першим внеском та податковими пільгами.</p>
+                        <div class="price-tag">Від 10%</div>
+                    </div>
+                    <div class="bg-white p-6 rounded-xl service-card">
+                        <div class="service-icon">
+                            <i class="fas fa-user-tie"></i>
+                        </div>
+                        <h4 class="text-xl font-bold mb-3">Фізичним особам</h4>
+                        <p class="text-gray-600 mb-4">Доступні програми лізингу для приватних клієнтів з гнучкими умовами оплати.</p>
+                        <div class="price-tag">Від 15%</div>
+                    </div>
+                    <div class="bg-white p-6 rounded-xl service-card">
+                        <div class="service-icon">
+                            <i class="fas fa-exchange-alt"></i>
+                        </div>
+                        <h4 class="text-xl font-bold mb-3">Викуп після лізингу</h4>
+                        <p class="text-gray-600 mb-4">Проста процедура викупу автомобіля після закінчення терміну лізингової угоди.</p>
+                        <div class="price-tag">Фіксована ціна</div>
+                    </div>
+                </div>
+            </div>
+
+            <div id="trade-in" class="tab-content hidden">
+                <h3 class="text-2xl font-bold mb-6 text-blue-900">Trade-in</h3>
+                <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+                    <div class="bg-white p-6 rounded-xl service-card">
+                        <div class="service-icon">
+                            <i class="fas fa-sync-alt"></i>
+                        </div>
+                        <h4 class="text-xl font-bold mb-3">Обмін на нове авто</h4>
+                        <p class="text-gray-600 mb-4">Вигідна програма обміну вашого старого автомобіля на новий з мінімальними затратами.</p>
+                        <div class="price-tag">До 95% вартості</div>
+                    </div>
+                    <div class="bg-white p-6 rounded-xl service-card">
+                        <div class="service-icon">
+                            <i class="fas fa-search-dollar"></i>
+                        </div>
+                        <h4 class="text-xl font-bold mb-3">Оцінка вашого авто</h4>
+                        <p class="text-gray-600 mb-4">Професійна оцінка вашого автомобіля за ринковою вартістю з урахуванням стану.</p>
+                        <div class="price-tag">Безкоштовно</div>
+                    </div>
+                    <div class="bg-white p-6 rounded-xl service-card">
+                        <div class="service-icon">
+                            <i class="fas fa-handshake"></i>
+                        </div>
+                        <h4 class="text-xl font-bold mb-3">Швидкий викуп</h4>
+                        <p class="text-gray-600 mb-4">Миттєвий викуп вашого автомобіля за готівку без зайвих формальностей.</p>
+                        <div class="price-tag">Готівка відразу</div>
+                    </div>
+                </div>
+            </div>
+
+            <div id="service" class="tab-content hidden">
+                <h3 class="text-2xl font-bold mb-6 text-blue-900">Сервісне обслуговування</h3>
+                <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+                    <div class="bg-white p-6 rounded-xl service-card">
+                        <div class="service-icon">
+                            <i class="fas fa-tools"></i>
+                        </div>
+                        <h4 class="text-xl font-bold mb-3">ТО та ремонт</h4>
+                        <p class="text-gray-600 mb-4">Повний спектр технічного обслуговування та ремонту будь-якої складності.</p>
+                        <div class="price-tag">Від $50</div>
+                    </div>
+                    <div class="bg-white p-6 rounded-xl service-card">
+                        <div class="service-icon">
+                            <i class="fas fa-oil-can"></i>
+                        </div>
+                        <h4 class="text-xl font-bold mb-3">Заміна мастил</h4>
+                        <p class="text-gray-600 mb-4">Професійна заміна всіх видів мастил з використанням якісних матеріалів.</p>
+                        <div class="price-tag">Від $30</div>
+                    </div>
+                    <div class="bg-white p-6 rounded-xl service-card">
+                        <div class="service-icon">
+                            <i class="fas fa-car-crash"></i>
+                        </div>
+                        <h4 class="text-xl font-bold mb-3">Кузовний ремонт</h4>
+                        <p class="text-gray-600 mb-4">Якісний кузовний ремонт після ДТП з гарантією на всі виконані роботи.</p>
+                        <div class="price-tag">Від $100</div>
+                    </div>
+                </div>
+            </div>
+
+            <div id="finance" class="tab-content hidden">
+                <h3 class="text-2xl font-bold mb-6 text-blue-900">Фінансові послуги</h3>
+                <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+                    <div class="bg-white p-6 rounded-xl service-card">
+                        <div class="service-icon">
+                            <i class="fas fa-hand-holding-usd"></i>
+                        </div>
+                        <h4 class="text-xl font-bold mb-3">Автокредит</h4>
+                        <p class="text-gray-600 mb-4">Вигідні умови кредитування на покупку автомобіля з низькими процентними ставками.</p>
+                        <div class="price-tag">Від 8% річних</div>
+                    </div>
+                    <div class="bg-white p-6 rounded-xl service-card">
+                        <div class="service-icon">
+                            <i class="fas fa-piggy-bank"></i>
+                        </div>
+                        <h4 class="text-xl font-bold mb-3">Страхування</h4>
+                        <p class="text-gray-600 mb-4">Повний спектр страхових послуг (КАСКО, ОСЦПВ) від провідних страхових компаній.</p>
+                        <div class="price-tag">Від $200/рік</div>
+                    </div>
+                    <div class="bg-white p-6 rounded-xl service-card">
+                        <div class="service-icon">
+                            <i class="fas fa-file-invoice-dollar"></i>
+                        </div>
+                        <h4 class="text-xl font-bold mb-3">Розстрочка</h4>
+                        <p class="text-gray-600 mb-4">Гнучкі програми розстрочки без участі банків з мінімальним першим внеском.</p>
+                        <div class="price-tag">Від 20%</div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="mb-16 bg-gradient-to-r from-blue-50 to-indigo-50 rounded-xl p-8">
+            <h2 class="text-3xl font-bold text-center mb-8 text-blue-900">Спеціальні пропозиції</h2>
+            <div class="grid grid-cols-1 md:grid-cols-2 gap-8">
+                <div class="bg-white rounded-xl p-6 shadow-md flex flex-col md:flex-row items-center">
+                    <div class="md:w-1/3 mb-4 md:mb-0 flex justify-center">
+                        <div class="bg-blue-100 p-4 rounded-full">
+                            <i class="fas fa-percentage text-blue-600 text-4xl"></i>
+                        </div>
+                    </div>
+                    <div class="md:w-2/3 md:pl-6">
+                        <h3 class="text-xl font-bold mb-2">Акція на перше ТО</h3>
+                        <p class="text-gray-600 mb-3">При покупці автомобіля у нас - перше технічне обслуговування безкоштовно!</p>
+                        <span class="text-sm text-blue-600 font-medium">Діє до 31.12.2025</span>
+                    </div>
+                </div>
+                <div class="bg-white rounded-xl p-6 shadow-md flex flex-col md:flex-row items-center">
+                    <div class="md:w-1/3 mb-4 md:mb-0 flex justify-center">
+                        <div class="bg-blue-100 p-4 rounded-full">
+                            <i class="fas fa-gift text-blue-600 text-4xl"></i>
+                        </div>
+                    </div>
+                    <div class="md:w-2/3 md:pl-6">
+                        <h3 class="text-xl font-bold mb-2">Подарунок при покупці</h3>
+                        <p class="text-gray-600 mb-3">При покупці автомобіля - зимовий комплект гуми або набір аксесуарів у подарунок.</p>
+                        <span class="text-sm text-blue-600 font-medium">Обмежена кількість</span>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="mb-16">
+            <h2 class="text-3xl font-bold text-center mb-8 text-blue-900">Наше розташування</h2>
+            <div class="map-container">
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d234.30393779248783!2d30.527173356988726!3d50.45137293283837!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x40d4ce51c30217a5%3A0x857984a29c69fded!2z0YPQuy4g0JrRgNC10YnQsNGC0LjQuiwgMSwg0JrQuNC10LIsIDAxMDAw!5e1!3m2!1sru!2sua!4v1745348306994!5m2!1sru!2sua" width="100%" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+            </div>
+            <div class="mt-6 bg-white rounded-xl p-6 shadow-md">
+                <div class="flex flex-col md:flex-row justify-between items-center">
+                    <div class="mb-4 md:mb-0">
+                        <h3 class="text-xl font-bold mb-2">Автосалон "Зелибоба"</h3>
+                        <p class="text-gray-600"><i class="fas fa-map-marker-alt text-blue-500 mr-2"></i> м. Київ, вул. Хрещатик, 1</p>
+                    </div>
+                    <div>
+                        <a href="tel:+380441234567" class="bg-blue-600 hover:bg-blue-700 text-white px-6 py-3 rounded-lg font-bold transition duration-300 inline-block">
+                            <i class="fas fa-phone-alt mr-2"></i> Зателефонувати
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="contact" class="bg-white rounded-xl shadow-lg p-8 mb-12">
+            <h2 class="text-3xl font-bold text-center mb-8 text-blue-900">Замовити послугу</h2>
+            <form class="max-w-2xl mx-auto">
+                <div class="grid grid-cols-1 md:grid-cols-2 gap-6 mb-6">
+                    <div>
+                        <label for="service-name" class="block text-gray-700 font-medium mb-2">Ваше ім'я*</label>
+                        <input type="text" id="service-name" class="w-full px-4 py-2 border rounded-lg focus:outline-none focus:ring-2 focus:ring-blue-500" required>
+                    </div>
+                    <div>
+                        <label for="service-phone" class="block text-gray-700 font-medium mb-2">Телефон*</label>
+                        <input type="tel" id="service-phone" class="w-full px-4 py-2 border rounded-lg focus:outline-none focus:ring-2 focus:ring-blue-500" required>
+                    </div>
+                </div>
+                <div class="mb-6">
+                    <label for="service-email" class="block text-gray-700 font-medium mb-2">Email</label>
+                    <input type="email" id="service-email" class="w-full px-4 py-2 border rounded-lg focus:outline-none focus:ring-2 focus:ring-blue-500">
+                </div>
+                <div class="mb-6">
+                    <label for="service-type" class="block text-gray-700 font-medium mb-2">Тип послуги*</label>
+                    <select id="service-type" class="w-full px-4 py-2 border rounded-lg focus:outline-none focus:ring-2 focus:ring-blue-500" required>
+                        <option value="">Оберіть послугу</option>
+                        <option value="new-car">Продаж нового авто</option>
+                        <option value="used-car">Продаж авто з пробігом</option>
+                        <option value="leasing">Лізинг</option>
+                        <option value="trade-in">Trade-in</option>
+                        <option value="service">Сервісне обслуговування</option>
+                        <option value="finance">Фінансові послуги</option>
+                    </select>
+                </div>
+                <div class="mb-6">
+                    <label for="service-message" class="block text-gray-700 font-medium mb-2">Додаткова інформація</label>
+                    <textarea id="service-message" rows="4" class="w-full px-4 py-2 border rounded-lg focus:outline-none focus:ring-2 focus:ring-blue-500"></textarea>
+                </div>
+                <div class="text-center">
+                    <button type="submit" class="bg-blue-600 hover:bg-blue-700 text-white px-8 py-3 rounded-lg font-bold transition duration-300">Надіслати заявку</button>
+                </div>
+            </form>
+        </section>
+    </main>
+
+    <footer class="bg-gradient-to-r from-blue-900 to-blue-700 text-white py-12">
+        <div class="container mx-auto px-4">
+            <div class="grid grid-cols-1 md:grid-cols-4 gap-8">
+                <div>
+                    <h3 class="text-xl font-bold mb-4">Автосалон "Зелибоба"</h3>
+                    <p class="mb-4">Найкращі автомобілі за доступними цінами. Професійний підхід до кожного клієнта.</p>
+                    <div class="flex space-x-4">
+                        <a href="#" class="text-white hover:text-blue-300">
+                            <i class="fab fa-telegram"></i>
+                        </a>
+                    </div>
+                </div>
+                <div>
+                    <h3 class="text-xl font-bold mb-4">Меню</h3>
+                    <ul class="space-y-2">
+                        <li><a href="index.html" class="hover:text-blue-300">Головна</a></li>
+                        <li><a href="about.html" class="hover:text-blue-300">Про нас</a></li>
+                        <li><a href="services.html" class="hover:text-blue-300">Послуги</a></li>
+                        <li><a href="feedback.html" class="hover:text-blue-300">Відгуки</a></li>
+                        <li><a href="location.html" class="hover:text-blue-300">Контакти</a></li>
+                    </ul>
+                </div>
+                <div>
+                    <h3 class="text-xl font-bold mb-4">Контакти</h3>
+                    <ul class="space-y-2">
+                        <li class="flex items-center">
+                            <i class="fas fa-map-marker-alt mr-2"></i>
+                            <span>м. Київ, вул. Хрещатик, 1</span>
+                        </li>
+                        <li class="flex items-center">
+                            <i class="fas fa-envelope mr-2"></i>
+                            <span>info@zeliboba.ua</span>
+                        </li>
+                        <li class="flex items-center">
+                            <i class="fas fa-clock mr-2"></i>
+                            <span>Пн-Нд: 9:00 - 20:00</span>
+                        </li>
+                    </ul>
+                </div>
+                <div>
+                    <h3 class="text-xl font-bold mb-4">Підписка на новини</h3>
+                    <p class="mb-4">Підпишіться на наші новини та отримуйте інформацію про акції та нові надходження.</p>
+                    <form class="flex">
+                        <input type="email" placeholder="Ваш email" class="px-4 py-2 rounded-l-lg text-gray-800 w-full">
+                        <button type="submit" class="bg-blue-500 hover:bg-blue-600 px-4 py-2 rounded-r-lg">
+                            <i class="fas fa-paper-plane"></i>
+                        </button>
+                    </form>
+                </div>
+            </div>
+            <div class="border-t border-blue-600 mt-8 pt-8 text-center">
+                <p>© 2025 Автосалон "Зелибоба". Всі права захищені.</p>
+                <p class="mt-2">Розроблено: Гусар Кирило</p>
+            </div>
+        </div>
+    </footer>
+
+    <script>
+        // Tab functionality
+        document.addEventListener('DOMContentLoaded', function() {
+            const tabButtons = document.querySelectorAll('.tab-button');
+            const tabContents = document.querySelectorAll('.tab-content');
+            
+            tabButtons.forEach(button => {
+                button.addEventListener('click', function() {
+                    // Remove active class from all buttons and contents
+                    tabButtons.forEach(btn => btn.classList.remove('active'));
+                    tabContents.forEach(content => content.classList.add('hidden'));
+                    
+                    // Add active class to clicked button
+                    this.classList.add('active');
+                    
+                    // Show corresponding content
+                    const tabId = this.getAttribute('data-tab');
+                    document.getElementById(tabId).classList.remove('hidden');
+                });
+            });
+            
+            // Simple animation on scroll
+            const fadeElements = document.querySelectorAll('.fade-in');
+            
+            const fadeInOnScroll = function() {
+                fadeElements.forEach(element => {
+                    const elementTop = element.getBoundingClientRect().top;
+                    const windowHeight = window.innerHeight;
+                    
+                    if (elementTop < windowHeight - 100) {
+                        element.style.opacity = '1';
+                    }
+                });
+            };
+            
+            // Initial check
+            fadeInOnScroll();
+            
+            // Check on scroll
+            window.addEventListener('scroll', fadeInOnScroll);
+            
+            // Form submission
+            const serviceForm = document.querySelector('#contact form');
+            if (serviceForm) {
+                serviceForm.addEventListener('submit', function(e) {
+                    e.preventDefault();
+                    
+                    // Get form values
+                    const name = document.getElementById('service-name').value;
+                    const serviceType = document.getElementById('service-type').value;
+                    
+                    // Here you would normally send the data to the server
+                    // For demo purposes, we'll just show an alert
+                    alert('Дякуємо за вашу заявку, ' + name + '! Ми зв\'яжемося з вами найближчим часом щодо послуги: ' + serviceType + '.');
+                    
+                    // Reset form
+                    this.reset();
+                });
+            }
+        });
+    </script>
+</body>
+</html>

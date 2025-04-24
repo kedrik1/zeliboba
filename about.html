@@ -1,0 +1,328 @@
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Автосалон Зелибоба - Про нас</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="css/style_about.css">
+</head>
+<body class="bg-gray-100">
+    <header class="bg-gradient-to-r from-blue-900 to-blue-700 text-white shadow-lg">
+        <div class="container mx-auto px-4 py-6">
+            <div class="flex flex-col md:flex-row justify-between items-center">
+                <div class="flex items-center mb-4 md:mb-0">
+                    <img src="img/frame1.png" alt="Логотип Зелибоба" class="logo mr-4">
+                    <h1 class="text-3xl font-bold neon-text">Автосалон "Зелибоба"</h1>
+                </div>
+                <div class="flex items-center space-x-4">
+                    <a href="https://t.me/korolevskiixvii" class="text-white hover:text-blue-300">
+                        <i class="fab fa-telegram text-2xl"></i>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <nav class="bg-white shadow-md sticky top-0 z-50">
+        <div class="container mx-auto px-4">
+            <ul class="flex flex-wrap justify-around md:justify-center py-4">
+                <li class="mx-2"><a href="index.html" class="block px-4 py-2 text-blue-900 hover:bg-blue-100 rounded-lg btn-hover">Головна</a></li>
+                <li class="mx-2"><a href="about.html" class="block px-4 py-2 text-blue-900 font-bold hover:bg-blue-100 rounded-lg btn-hover">Про нас</a></li>
+                <li class="mx-2"><a href="services.html" class="block px-4 py-2 text-blue-900 hover:bg-blue-100 rounded-lg btn-hover">Послуги</a></li>
+                <li class="mx-2"><a href="feedback.html" class="block px-4 py-2 text-blue-900 hover:bg-blue-100 rounded-lg btn-hover">Відгуки</a></li>
+                <li class="mx-2"><a href="location.html" class="block px-4 py-2 text-blue-900 hover:bg-blue-100 rounded-lg btn-hover">Контакти</a></li>
+                <li class="mx-2"><a href="info_block.html" class="block px-4 py-2 text-blue-900 hover:bg-blue-100 rounded-lg btn-hover">Інфо</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <main class="container mx-auto px-4 py-8 fade-in">
+        <section class="bg-gradient-to-r from-blue-800 to-blue-600 text-white rounded-xl shadow-xl p-8 mb-12">
+            <div class="flex flex-col md:flex-row items-center">
+                <div class="md:w-2/3 mb-8 md:mb-0">
+                    <h2 class="text-4xl font-bold mb-4">Про наш автосалон</h2>
+                    <p class="text-xl mb-6">"Зелибоба" - це сучасний автосалон з 5-річною історією успішної роботи на ринку України. Ми пропонуємо якісні автомобілі та професійний сервіс для наших клієнтів.</p>
+                    <a href="#contact" class="bg-white text-blue-800 px-6 py-3 rounded-lg font-bold hover:bg-blue-100 transition duration-300 inline-block">Зв'язатися з нами</a>
+                </div>
+                <div class="md:w-1/3 flex justify-center">
+                    <img src="img/frame1.png" alt="Логотип Зелибоба" class="w-64 h-auto">
+                </div>
+            </div>
+        </section>
+
+        <section class="mb-16">
+            <div class="grid grid-cols-1 lg:grid-cols-2 gap-8 mb-12">
+                <div class="bg-white rounded-xl p-8 about-card">
+                    <h2 class="text-3xl font-bold mb-6 text-blue-900">Наша місія</h2>
+                    <p class="text-gray-700 mb-4">Ми прагнемо зробити процес купівлі автомобіля максимально простим, прозорим та приємним для кожного клієнта.</p>
+                    <p class="text-gray-700">Наша мета - стати вашим довіренним партнером у світі автомобілів, пропонуючи тільки перевірені авто з гарантією якості.</p>
+                </div>
+                <div class="bg-white rounded-xl p-8 about-card">
+                    <h2 class="text-3xl font-bold mb-6 text-blue-900">Наші переваги</h2>
+                    <ul class="space-y-3 text-gray-700">
+                        <li class="flex items-start">
+                            <i class="fas fa-check-circle text-blue-500 mt-1 mr-2"></i>
+                            <span>Більше 1250 задоволених клієнтів</span>
+                        </li>
+                        <li class="flex items-start">
+                            <i class="fas fa-check-circle text-blue-500 mt-1 mr-2"></i>
+                            <span>Гарантія на всі автомобілі</span>
+                        </li>
+                        <li class="flex items-start">
+                            <i class="fas fa-check-circle text-blue-500 mt-1 mr-2"></i>
+                            <span>Повний супровід угоди</span>
+                        </li>
+                        <li class="flex items-start">
+                            <i class="fas fa-check-circle text-blue-500 mt-1 mr-2"></i>
+                            <span>Вигідні умови кредитування</span>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            
+            <div class="bg-white rounded-xl p-8 about-card mb-12">
+                <h2 class="text-3xl font-bold mb-6 text-center text-blue-900">Наша історія</h2>
+                <div class="timeline">
+                    <div class="timeline-item">
+                        <h3 class="text-xl font-bold mb-2">2018 - Заснування</h3>
+                        <p class="text-gray-700">Невеликий автосалон у центрі Києва з командою з 5 осіб. Перші 50 проданих авто.</p>
+                    </div>
+                    <div class="timeline-item">
+                        <h3 class="text-xl font-bold mb-2">2019 - Розширення</h3>
+                        <p class="text-gray-700">Відкриття другого залу та сервісного центру. Команда зросла до 15 спеціалістів.</p>
+                    </div>
+                    <div class="timeline-item">
+                        <h3 class="text-xl font-bold mb-2">2020 - Онлайн-продажі</h3>
+                        <p class="text-gray-700">Запуск повноцінного інтернет-магазину з можливістю онлайн-бронювання авто.</p>
+                    </div>
+                    <div class="timeline-item">
+                        <h3 class="text-xl font-bold mb-2">2021 - Преміум сегмент</h3>
+                        <p class="text-gray-700">Початок роботи з преміальними брендами: BMW, Mercedes, Audi.</p>
+                    </div>
+                    <div class="timeline-item">
+                        <h3 class="text-xl font-bold mb-2">2025 - Сьогодення</h3>
+                        <p class="text-gray-700">3 автосалони в Києві, 40 співробітників, понад 1250 проданих авто.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="mb-16">
+            <h2 class="text-3xl font-bold text-center mb-12 text-blue-900">Наша команда</h2>
+            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
+                <div class="bg-white rounded-xl p-6 text-center team-member">
+                    <img src="https://randomuser.me/api/portraits/men/32.jpg" alt="Директор" class="team-photo mb-4">
+                    <h3 class="text-xl font-bold mb-2">Олександр Петренко</h3>
+                    <p class="text-blue-600 font-medium mb-2">Директор</p>
+                    <p class="text-gray-600">Засновник автосалону з 15-річним досвідом у автомобільному бізнесі.</p>
+                </div>
+                <div class="bg-white rounded-xl p-6 text-center team-member">
+                    <img src="https://randomuser.me/api/portraits/women/45.jpg" alt="Менеджер" class="team-photo mb-4">
+                    <h3 class="text-xl font-bold mb-2">Анна Сидоренко</h3>
+                    <p class="text-blue-600 font-medium mb-2">Менеджер з продажу</p>
+                    <p class="text-gray-600">Професійно допомагає клієнтам з вибором авто вже 7 років.</p>
+                </div>
+                <div class="bg-white rounded-xl p-6 text-center team-member">
+                    <img src="https://randomuser.me/api/portraits/men/22.jpg" alt="Механік" class="team-photo mb-4">
+                    <h3 class="text-xl font-bold mb-2">Ігор Мельник</h3>
+                    <p class="text-blue-600 font-medium mb-2">Головний механік</p>
+                    <p class="text-gray-600">Досвід роботи з автомобілями різних марок понад 12 років.</p>
+                </div>
+                <div class="bg-white rounded-xl p-6 text-center team-member">
+                    <img src="https://randomuser.me/api/portraits/women/33.jpg" alt="Фінансист" class="team-photo mb-4">
+                    <h3 class="text-xl font-bold mb-2">Тетяна Коваль</h3>
+                    <p class="text-blue-600 font-medium mb-2">Фінансовий директор</p>
+                    <p class="text-gray-600">Спеціаліст з кредитування та фінансових питань.</p>
+                </div>
+            </div>
+        </section>
+
+        <section class="mb-16">
+            <h2 class="text-3xl font-bold text-center mb-12 text-blue-900">Наші цінності</h2>
+            <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+                <div class="bg-white rounded-xl p-6 text-center about-card">
+                    <div class="values-icon">
+                        <i class="fas fa-handshake"></i>
+                    </div>
+                    <h3 class="text-xl font-bold mb-2">Чесність</h3>
+                    <p class="text-gray-600">Ми говоримо правду про стан кожного автомобіля і не приховуємо недоліки.</p>
+                </div>
+                <div class="bg-white rounded-xl p-6 text-center about-card">
+                    <div class="values-icon">
+                        <i class="fas fa-star"></i>
+                    </div>
+                    <h3 class="text-xl font-bold mb-2">Якість</h3>
+                    <p class="text-gray-600">Кожен автомобіль проходить ретельну перевірку перед продажем.</p>
+                </div>
+                <div class="bg-white rounded-xl p-6 text-center about-card">
+                    <div class="values-icon">
+                        <i class="fas fa-heart"></i>
+                    </div>
+                    <h3 class="text-xl font-bold mb-2">Клієнтоорієнтованість</h3>
+                    <p class="text-gray-600">Ми слухаємо ваші потреби і пропонуємо оптимальні рішення.</p>
+                </div>
+            </div>
+        </section>
+
+        <section class="bg-gradient-to-r from-blue-800 to-blue-600 text-white rounded-xl shadow-xl p-8 mb-12">
+            <h2 class="text-3xl font-bold text-center mb-8">Наші досягнення</h2>
+            <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+                <div class="text-center p-4">
+                    <div class="text-5xl font-bold mb-2">5+</div>
+                    <p class="text-xl">Років на ринку</p>
+                </div>
+                <div class="text-center p-4">
+                    <div class="text-5xl font-bold mb-2">1,250+</div>
+                    <p class="text-xl">Задоволених клієнтів</p>
+                </div>
+                <div class="text-center p-4">
+                    <div class="text-5xl font-bold mb-2">40+</div>
+                    <p class="text-xl">Професійних співробітників</p>
+                </div>
+            </div>
+        </section>
+
+        <section id="contact" class="bg-white rounded-xl shadow-lg p-8 mb-12">
+            <h2 class="text-3xl font-bold text-center mb-12 text-blue-900">Зв'язатися з нами</h2>
+            <form class="max-w-2xl mx-auto">
+                <div class="grid grid-cols-1 md:grid-cols-2 gap-6 mb-6">
+                    <div>
+                        <label for="contact-name" class="block text-gray-700 font-medium mb-2">Ваше ім'я*</label>
+                        <input type="text" id="contact-name" class="w-full px-4 py-2 border rounded-lg focus:outline-none focus:ring-2 focus:ring-blue-500" required>
+                    </div>
+                    <div>
+                        <label for="contact-phone" class="block text-gray-700 font-medium mb-2">Телефон*</label>
+                        <input type="tel" id="contact-phone" class="w-full px-4 py-2 border rounded-lg focus:outline-none focus:ring-2 focus:ring-blue-500" required>
+                    </div>
+                </div>
+                <div class="mb-6">
+                    <label for="contact-email" class="block text-gray-700 font-medium mb-2">Email</label>
+                    <input type="email" id="contact-email" class="w-full px-4 py-2 border rounded-lg focus:outline-none focus:ring-2 focus:ring-blue-500">
+                </div>
+                <div class="mb-6">
+                    <label for="contact-message" class="block text-gray-700 font-medium mb-2">Ваше повідомлення*</label>
+                    <textarea id="contact-message" rows="5" class="w-full px-4 py-2 border rounded-lg focus:outline-none focus:ring-2 focus:ring-blue-500" required></textarea>
+                </div>
+                <div class="text-center">
+                    <button type="submit" class="bg-blue-600 hover:bg-blue-700 text-white px-8 py-3 rounded-lg font-bold transition duration-300">Надіслати</button>
+                </div>
+            </form>
+        </section>
+    </main>
+
+    <footer class="bg-gradient-to-r from-blue-900 to-blue-700 text-white py-12">
+        <div class="container mx-auto px-4">
+            <div class="grid grid-cols-1 md:grid-cols-4 gap-8">
+                <div>
+                    <h3 class="text-xl font-bold mb-4">Автосалон "Зелибоба"</h3>
+                    <p class="mb-4">Найкращі автомобілі за доступними цінами. Професійний підхід до кожного клієнта.</p>
+                    <div class="flex space-x-4">
+                        <a href="#" class="text-white hover:text-blue-300">
+                            <i class="fab fa-telegram"></i>
+                        </a>
+                    </div>
+                </div>
+                <div>
+                    <h3 class="text-xl font-bold mb-4">Меню</h3>
+                    <ul class="space-y-2">
+                        <li><a href="index.html" class="hover:text-blue-300">Головна</a></li>
+                        <li><a href="about.html" class="hover:text-blue-300">Про нас</a></li>
+                        <li><a href="services.html" class="hover:text-blue-300">Послуги</a></li>
+                        <li><a href="feedback.html" class="hover:text-blue-300">Відгуки</a></li>
+                        <li><a href="location.html" class="hover:text-blue-300">Контакти</a></li>
+                    </ul>
+                </div>
+                <div>
+                    <h3 class="text-xl font-bold mb-4">Контакти</h3>
+                    <ul class="space-y-2">
+                        <li class="flex items-center">
+                            <i class="fas fa-map-marker-alt mr-2"></i>
+                            <span>м. Київ, вул. Хрещатик, 1</span>
+                        </li>
+                        <li class="flex items-center">
+                            <i class="fas fa-envelope mr-2"></i>
+                            <span>info@zeliboba.ua</span>
+                        </li>
+                        <li class="flex items-center">
+                            <i class="fas fa-clock mr-2"></i>
+                            <span>Пн-Нд: 9:00 - 20:00</span>
+                        </li>
+                    </ul>
+                </div>
+                <div>
+                    <h3 class="text-xl font-bold mb-4">Підписка на новини</h3>
+                    <p class="mb-4">Підпишіться на наші новини та отримуйте інформацію про акції та нові надходження.</p>
+                    <form class="flex">
+                        <input type="email" placeholder="Ваш email" class="px-4 py-2 rounded-l-lg text-gray-800 w-full">
+                        <button type="submit" class="bg-blue-500 hover:bg-blue-600 px-4 py-2 rounded-r-lg">
+                            <i class="fas fa-paper-plane"></i>
+                        </button>
+                    </form>
+                </div>
+            </div>
+            <div class="border-t border-blue-600 mt-8 pt-8 text-center">
+                <p>© 2025 Автосалон "Зелибоба". Всі права захищені.</p>
+                <p class="mt-2">Розроблено: Гусар Кирило</p>
+            </div>
+        </div>
+    </footer>
+
+    <script>
+        // Simple animation on scroll
+        document.addEventListener('DOMContentLoaded', function() {
+            const fadeElements = document.querySelectorAll('.fade-in');
+            
+            const fadeInOnScroll = function() {
+                fadeElements.forEach(element => {
+                    const elementTop = element.getBoundingClientRect().top;
+                    const windowHeight = window.innerHeight;
+                    
+                    if (elementTop < windowHeight - 100) {
+                        element.style.opacity = '1';
+                    }
+                });
+            };
+            
+            // Initial check
+            fadeInOnScroll();
+            
+            // Check on scroll
+            window.addEventListener('scroll', fadeInOnScroll);
+            
+            // Button hover effects
+            const buttons = document.querySelectorAll('.btn-hover');
+            buttons.forEach(button => {
+                button.addEventListener('mouseenter', function() {
+                    this.style.transform = 'translateY(-3px)';
+                    this.style.boxShadow = '0 0 20px rgba(0, 115, 230, 0.8)';
+                });
+                
+                button.addEventListener('mouseleave', function() {
+                    this.style.transform = 'translateY(0)';
+                    this.style.boxShadow = '0 0 10px rgba(0, 115, 230, 0.5)';
+                });
+            });
+            
+            // Form submission
+            const contactForm = document.querySelector('#contact form');
+            if (contactForm) {
+                contactForm.addEventListener('submit', function(e) {
+                    e.preventDefault();
+                    
+                    // Get form values
+                    const name = document.getElementById('contact-name').value;
+                    
+                    // Here you would normally send the data to the server
+                    // For demo purposes, we'll just show an alert
+                    alert('Дякуємо за ваше повідомлення, ' + name + '! Ми зв\'яжемося з вами найближчим часом.');
+                    
+                    // Reset form
+                    this.reset();
+                });
+            }
+        });
+    </script>
+</body>
+</html>

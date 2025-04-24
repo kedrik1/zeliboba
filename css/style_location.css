@@ -1,0 +1,142 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap');
+        
+body {
+    font-family: 'Montserrat', sans-serif;
+    scroll-behavior: smooth;
+}
+
+.neon-text {
+    text-shadow: 0 0 5px #fff, 0 0 10px #fff, 0 0 15px #0073e6, 0 0 20px #0073e6;
+}
+
+.btn-hover {
+    transition: all 0.3s ease;
+    box-shadow: 0 0 10px rgba(0, 115, 230, 0.5);
+}
+
+.btn-hover:hover {
+    transform: translateY(-3px);
+    box-shadow: 0 0 20px rgba(0, 115, 230, 0.8);
+}
+
+.card-hover {
+    transition: all 0.3s ease;
+}
+
+.card-hover:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+}
+
+@keyframes fadeIn {
+    from { opacity: 0; }
+    to { opacity: 1; }
+}
+
+.fade-in {
+    animation: fadeIn 1s ease-in;
+}
+
+.phone-popup {
+    display: none;
+    position: absolute;
+    top: 50px;
+    right: 0;
+    background: white;
+    color: #1e40af;
+    padding: 10px;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    z-index: 10;
+    width: 200px;
+    text-align: center;
+}
+
+.phone-icon:hover + .phone-popup, .phone-popup:hover {
+    display: block;
+}
+
+.contact-icon {
+    width: 60px;
+    height: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+    background: linear-gradient(135deg, #1e40af, #3b82f6);
+    color: white;
+    font-size: 24px;
+    margin-right: 20px;
+    flex-shrink: 0;
+}
+
+.form-input {
+    transition: all 0.3s ease;
+    border: 2px solid #e5e7eb;
+}
+
+.form-input:focus {
+    border-color: #3b82f6;
+    box-shadow: 0 0 0 3px rgba(59, 130, 246, 0.2);
+}
+
+.social-icon {
+    width: 40px;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+    background: #3b82f6;
+    color: white;
+    font-size: 18px;
+    transition: all 0.3s ease;
+}
+
+.social-icon:hover {
+    transform: translateY(-3px);
+    background: #1e40af;
+}
+
+.logo {
+    height: 60px;
+    width: auto;
+}
+
+.contact-table {
+    width: 100%;
+    border-collapse: separate;
+    border-spacing: 0;
+    border-radius: 12px;
+    overflow: hidden;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.contact-table th {
+    background-color: #1e40af;
+    color: white;
+    padding: 15px;
+    text-align: left;
+    font-weight: 600;
+}
+
+.contact-table td {
+    padding: 15px;
+    border-bottom: 1px solid #e5e7eb;
+    background-color: white;
+}
+
+.contact-table tr:last-child td {
+    border-bottom: none;
+}
+
+.contact-table tr:hover td {
+    background-color: #f8fafc;
+}
+
+.table-icon {
+    color: #3b82f6;
+    margin-right: 8px;
+    width: 20px;
+    text-align: center;
+}

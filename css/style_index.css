@@ -1,0 +1,71 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap');
+
+
+
+body {
+    font-family: 'Montserrat', sans-serif;
+    scroll-behavior: smooth;
+}
+
+.neon-text {
+    text-shadow: 0 0 5px #fff, 0 0 10px #fff, 0 0 15px #0073e6, 0 0 20px #0073e6;
+}
+
+.btn-hover {
+    transition: all 0.3s ease;
+    box-shadow: 0 0 10px rgba(0, 115, 230, 0.5);
+}
+
+.btn-hover:hover {
+    transform: translateY(-3px);
+    box-shadow: 0 0 20px rgba(0, 115, 230, 0.8);
+}
+
+.car-card {
+    transition: all 0.3s ease;
+}
+
+.car-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+}
+
+@keyframes fadeIn {
+    from { opacity: 0; }
+    to { opacity: 1; }
+}
+
+.fade-in {
+    animation: fadeIn 1s ease-in;
+}
+
+.phone-popup {
+    display: none;
+    position: absolute;
+    top: 50px;
+    right: 0;
+    background: white;
+    color: #1e40af;
+    padding: 10px;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    z-index: 10;
+    width: 200px;
+    text-align: center;
+}
+
+.phone-icon:hover + .phone-popup,
+.phone-popup:hover {
+    display: block;
+}
+
+.car-image {
+    height: 200px;
+    width: 100%;
+    object-fit: cover;
+}
+
+.logo {
+    height: 60px;
+    width: auto;
+}

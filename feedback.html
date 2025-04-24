@@ -1,0 +1,452 @@
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Автосалон Зелибоба - Відгуки</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="css/style_feedback.css">
+</head>
+<body class="bg-gray-100">
+    <header class="bg-gradient-to-r from-blue-900 to-blue-700 text-white shadow-lg">
+        <div class="container mx-auto px-4 py-6">
+            <div class="flex flex-col md:flex-row justify-between items-center">
+                <div class="flex items-center mb-4 md:mb-0">
+                    <img src="img/frame1.png" alt="Логотип Зелибоба" class="logo mr-4">
+                    <h1 class="text-3xl font-bold neon-text">Автосалон "Зелибоба"</h1>
+                </div>
+                <div class="flex items-center space-x-4">
+                    <a href="https://t.me/korolevskiixvii" class="text-white hover:text-blue-300">
+                        <i class="fab fa-telegram text-2xl"></i>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <nav class="bg-white shadow-md sticky top-0 z-50">
+        <div class="container mx-auto px-4">
+            <ul class="flex flex-wrap justify-around md:justify-center py-4">
+                <li class="mx-2"><a href="index.html" class="block px-4 py-2 text-blue-900 hover:bg-blue-100 rounded-lg btn-hover">Головна</a></li>
+                <li class="mx-2"><a href="about.html" class="block px-4 py-2 text-blue-900 hover:bg-blue-100 rounded-lg btn-hover">Про нас</a></li>
+                <li class="mx-2"><a href="services.html" class="block px-4 py-2 text-blue-900 hover:bg-blue-100 rounded-lg btn-hover">Послуги</a></li>
+                <li class="mx-2"><a href="feedback.html" class="block px-4 py-2 text-blue-900 font-bold hover:bg-blue-100 rounded-lg btn-hover">Відгуки</a></li>
+                <li class="mx-2"><a href="location.html" class="block px-4 py-2 text-blue-900 hover:bg-blue-100 rounded-lg btn-hover">Контакти</a></li>
+                <li class="mx-2"><a href="info_block.html" class="block px-4 py-2 text-blue-900 hover:bg-blue-100 rounded-lg btn-hover">Інфо</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <main class="container mx-auto px-4 py-8 fade-in">
+        <section class="bg-gradient-to-r from-blue-800 to-blue-600 text-white rounded-xl shadow-xl p-8 mb-12">
+            <div class="flex flex-col md:flex-row items-center">
+                <div class="md:w-2/3 mb-8 md:mb-0">
+                    <h2 class="text-4xl font-bold mb-4">Відгуки наших клієнтів</h2>
+                    <p class="text-xl mb-6">Читайте реальні історії людей, які вже стали власниками автомобілів завдяки автосалону "Зелибоба". Ваша довіра - наша найвища оцінка!</p>
+                    <a href="#add-review" class="bg-white text-blue-800 px-6 py-3 rounded-lg font-bold hover:bg-blue-100 transition duration-300 inline-block">Залишити відгук</a>
+                </div>
+                <div class="md:w-1/3 flex justify-center">
+                    <div class="text-8xl">🌟</div>
+                </div>
+            </div>
+        </section>
+
+        <section class="bg-white rounded-xl shadow-lg p-8 mb-12">
+            <h2 class="text-3xl font-bold text-center mb-12 text-blue-900">Наші показники</h2>
+            <div class="grid grid-cols-2 md:grid-cols-4 gap-8 text-center">
+                <div>
+                    <div class="text-5xl font-bold text-blue-800 mb-2">98%</div>
+                    <p class="text-gray-600">Задоволених клієнтів</p>
+                </div>
+                <div>
+                    <div class="text-5xl font-bold text-blue-800 mb-2">1,250+</div>
+                    <p class="text-gray-600">Проданих авто</p>
+                </div>
+                <div>
+                    <div class="text-5xl font-bold text-blue-800 mb-2">4.9</div>
+                    <p class="text-gray-600">Середня оцінка</p>
+                </div>
+                <div>
+                    <div class="text-5xl font-bold text-blue-800 mb-2">5</div>
+                    <p class="text-gray-600">Років на ринку</p>
+                </div>
+            </div>
+        </section>
+
+        <section class="mb-16">
+            <h2 class="text-3xl font-bold text-center mb-12 text-blue-900">Що кажуть наші клієнти</h2>
+            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+                <div class="bg-white rounded-xl p-6 review-card">
+                    <div class="flex items-center mb-4">
+                        <img src="https://randomuser.me/api/portraits/men/32.jpg" alt="Клієнт" class="avatar mr-4">
+                        <div>
+                            <h3 class="font-bold text-lg">Андрій Коваленко</h3>
+                            <div class="stars">
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                            </div>
+                        </div>
+                    </div>
+                    <p class="text-gray-600 italic mb-4">"Купив у Зелибоби свій перший автомобіль - Volkswagen Golf. Персонал дуже професійний, допомогли з усіма документами. Авто в ідеальному стані, як і обіцяли. Дякую!"</p>
+                    <div class="text-sm text-gray-500">20 травня 2025 | Volkswagen Golf</div>
+                </div>
+                
+                <div class="bg-white rounded-xl p-6 review-card">
+                    <div class="flex items-center mb-4">
+                        <img src="https://randomuser.me/api/portraits/women/44.jpg" alt="Клієнт" class="avatar mr-4">
+                        <div>
+                            <h3 class="font-bold text-lg">Олена Петренко</h3>
+                            <div class="stars">
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                            </div>
+                        </div>
+                    </div>
+                    <p class="text-gray-600 italic mb-4">"Дуже задоволена обслуговуванням! Продали мою стару Toyota і допомогли вибрати нову Mazda CX-5. Всі умови дотримані, ціна приємно здивувала. Рекомендую цей автосалон!"</p>
+                    <div class="text-sm text-gray-500">12 квітня 2025 | Mazda CX-5</div>
+                </div>
+
+                <div class="bg-white rounded-xl p-6 review-card">
+                    <div class="flex items-center mb-4">
+                        <img src="https://randomuser.me/api/portraits/men/75.jpg" alt="Клієнт" class="avatar mr-4">
+                        <div>
+                            <h3 class="font-bold text-lg">Ігор Сидоренко</h3>
+                            <div class="stars">
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star-half-alt"></i>
+                            </div>
+                        </div>
+                    </div>
+                    <p class="text-gray-600 italic mb-4">"Зробив трейд-ін свого старого BMW на нову модель. Оцінка мого авто була справедливою, а нове авто - просто мрія! Дякую менеджеру Олексію за терпіння та професійність."</p>
+                    <div class="text-sm text-gray-500">3 березня 2025 | BMW 5 Series</div>
+                </div>
+                
+                <div class="bg-white rounded-xl p-6 review-card">
+                    <div class="flex items-center mb-4">
+                        <img src="https://randomuser.me/api/portraits/women/68.jpg" alt="Клієнт" class="avatar mr-4">
+                        <div>
+                            <h3 class="font-bold text-lg">Наталія Іваненко</h3>
+                            <div class="stars">
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                            </div>
+                        </div>
+                    </div>
+                    <p class="text-gray-600 italic mb-4">"Шукала невелике міське авто для себе. У Зелибобі мені запропонували кілька варіантів, допомогли з тест-драйвом. В результаті купила Hyundai Solaris - ідеально підходить для міста!"</p>
+                    <div class="text-sm text-gray-500">15 лютого 2025 | Hyundai Solaris</div>
+                </div>
+                
+                <div class="bg-white rounded-xl p-6 review-card">
+                    <div class="flex items-center mb-4">
+                        <img src="https://randomuser.me/api/portraits/men/12.jpg" alt="Клієнт" class="avatar mr-4">
+                        <div>
+                            <h3 class="font-bold text-lg">Віктор Мельник</h3>
+                            <div class="stars">
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                            </div>
+                        </div>
+                    </div>
+                    <p class="text-gray-600 italic mb-4">"Приїхав за Mercedes, але після консультації зрозумів, що мені більше підходить Audi. Дякую за чесність! Автосалон, якому можна довіряти. Обслуговування на високому рівні."</p>
+                    <div class="text-sm text-gray-500">28 січня 2025 | Audi A6</div>
+                </div>
+                
+                <div class="bg-white rounded-xl p-6 review-card">
+                    <div class="flex items-center mb-4">
+                        <img src="https://randomuser.me/api/portraits/women/33.jpg" alt="Клієнт" class="avatar mr-4">
+                        <div>
+                            <h3 class="font-bold text-lg">Тетяна Шевченко</h3>
+                            <div class="stars">
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="far fa-star"></i>
+                            </div>
+                        </div>
+                    </div>
+                    <p class="text-gray-600 italic mb-4">"Купувала перший автомобіль для сина. Допомогли вибрати безпечний та економічний варіант. Єдиний недолік - довго чекали на оформлення документів (2 дні). В цілому - задоволена."</p>
+                    <div class="text-sm text-gray-500">10 січня 2025 | Kia Rio</div>
+                </div>
+            </div>
+            
+            <div class="flex justify-center mt-12">
+                <div class="flex space-x-2 pagination">
+                    <button class="w-10 h-10 rounded-full bg-gray-200 hover:bg-blue-500 hover:text-white transition">1</button>
+                    <button class="w-10 h-10 rounded-full bg-gray-200 hover:bg-blue-500 hover:text-white transition">2</button>
+                    <button class="w-10 h-10 rounded-full bg-blue-500 text-white active">3</button>
+                    <button class="w-10 h-10 rounded-full bg-gray-200 hover:bg-blue-500 hover:text-white transition">4</button>
+                    <button class="w-10 h-10 rounded-full bg-gray-200 hover:bg-blue-500 hover:text-white transition">5</button>
+                </div>
+            </div>
+        </section>
+
+        <section class="bg-white rounded-xl shadow-lg p-8 mb-12">
+            <h2 class="text-3xl font-bold text-center mb-12 text-blue-900">Відео-відгуки</h2>
+            <div class="grid grid-cols-1 md:grid-cols-2 gap-8">
+                <div class="bg-gray-200 rounded-xl overflow-hidden relative" style="padding-bottom: 56.25%;">
+                    <div class="absolute inset-0 flex items-center justify-center">
+                        <div class="text-center">
+                            <div class="aspect-w-16 aspect-h-9 w-full max-w-xl mx-auto">
+                                <iframe width="560" height="315" src="https://www.youtube.com/embed/3EtObDynD6c?si=_Iu0k6OzUozavabV&amp;start=1" title="YouTube video player" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="bg-gray-200 rounded-xl overflow-hidden relative" style="padding-bottom: 56.25%;">
+                    <div class="absolute inset-0 flex items-center justify-center">
+                        <div class="text-center">
+                            <div class="aspect-w-16 aspect-h-9 w-full max-w-xl mx-auto">
+                                <iframe width="560" height="315" src="https://www.youtube.com/embed/OXUOmKELDoA?si=Ka9CyhE0ogjQQiOz" title="YouTube video player" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="add-review" class="testimonial-bg rounded-xl shadow-lg p-8 mb-12">
+            <h2 class="text-3xl font-bold text-center mb-12 text-blue-900">Залишити свій відгук</h2>
+            <form class="max-w-2xl mx-auto">
+                <div class="grid grid-cols-1 md:grid-cols-2 gap-6 mb-6">
+                    <div>
+                        <label for="name" class="block text-gray-700 font-medium mb-2">Ваше ім'я*</label>
+                        <input type="text" id="name" class="w-full px-4 py-2 border rounded-lg focus:outline-none focus:ring-2 focus:ring-blue-500" required>
+                    </div>
+                    <div>
+                        <label for="email" class="block text-gray-700 font-medium mb-2">Email*</label>
+                        <input type="email" id="email" class="w-full px-4 py-2 border rounded-lg focus:outline-none focus:ring-2 focus:ring-blue-500" required>
+                    </div>
+                </div>
+                <div class="mb-6">
+                    <label for="car" class="block text-gray-700 font-medium mb-2">Який автомобіль купували?</label>
+                    <input type="text" id="car" class="w-full px-4 py-2 border rounded-lg focus:outline-none focus:ring-2 focus:ring-blue-500">
+                </div>
+                <div class="mb-6">
+                    <label class="block text-gray-700 font-medium mb-2">Ваша оцінка*</label>
+                    <div class="flex space-x-2 stars">
+                        <i class="far fa-star text-2xl cursor-pointer" data-rating="1"></i>
+                        <i class="far fa-star text-2xl cursor-pointer" data-rating="2"></i>
+                        <i class="far fa-star text-2xl cursor-pointer" data-rating="3"></i>
+                        <i class="far fa-star text-2xl cursor-pointer" data-rating="4"></i>
+                        <i class="far fa-star text-2xl cursor-pointer" data-rating="5"></i>
+                    </div>
+                    <input type="hidden" id="rating" name="rating" value="0">
+                </div>
+                <div class="mb-6">
+                    <label for="review" class="block text-gray-700 font-medium mb-2">Ваш відгук*</label>
+                    <textarea id="review" rows="5" class="w-full px-4 py-2 border rounded-lg focus:outline-none focus:ring-2 focus:ring-blue-500" required></textarea>
+                </div>
+                <div class="mb-6">
+                    <label class="flex items-center">
+                        <input type="checkbox" class="form-checkbox h-5 w-5 text-blue-600" required>
+                        <span class="ml-2 text-gray-700">Я погоджуюсь з обробкою персональних даних</span>
+                    </label>
+                </div>
+                <div class="text-center">
+                    <button type="submit" class="bg-blue-600 hover:bg-blue-700 text-white px-8 py-3 rounded-lg font-bold transition duration-300">Надіслати відгук</button>
+                </div>
+            </form>
+        </section>
+
+        <section class="bg-white rounded-xl shadow-lg p-8 mb-12">
+            <h2 class="text-3xl font-bold text-center mb-12 text-blue-900">Нам довіряють</h2>
+            <div class="grid grid-cols-2 md:grid-cols-4 gap-8">
+                <div class="flex justify-center items-center h-20">
+                    <div class="text-4xl">🏆</div>
+                </div>
+                <div class="flex justify-center items-center h-20">
+                    <div class="text-4xl">🏅</div>
+                </div>
+                <div class="flex justify-center items-center h-20">
+                    <div class="text-4xl">⭐</div>
+                </div>
+                <div class="flex justify-center items-center h-20">
+                    <div class="text-4xl">👍</div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer class="bg-gradient-to-r from-blue-900 to-blue-700 text-white py-12">
+        <div class="container mx-auto px-4">
+            <div class="grid grid-cols-1 md:grid-cols-4 gap-8">
+                <div>
+                    <h3 class="text-xl font-bold mb-4">Автосалон "Зелибоба"</h3>
+                    <p class="mb-4">Найкращі автомобілі за доступними цінами. Професійний підхід до кожного клієнта.</p>
+                    <div class="flex space-x-4">
+                        <a href="#" class="text-white hover:text-blue-300">
+                            <i class="fab fa-telegram"></i>
+                        </a>
+                    </div>
+                </div>
+                <div>
+                    <h3 class="text-xl font-bold mb-4">Меню</h3>
+                    <ul class="space-y-2">
+                        <li><a href="index.html" class="hover:text-blue-300">Головна</a></li>
+                        <li><a href="about.html" class="hover:text-blue-300">Про нас</a></li>
+                        <li><a href="services.html" class="hover:text-blue-300">Послуги</a></li>
+                        <li><a href="feedback.html" class="hover:text-blue-300">Відгуки</a></li>
+                        <li><a href="location.html" class="hover:text-blue-300">Контакти</a></li>
+                    </ul>
+                </div>
+                <div>
+                    <h3 class="text-xl font-bold mb-4">Контакти</h3>
+                    <ul class="space-y-2">
+                        <li class="flex items-center">
+                            <i class="fas fa-map-marker-alt mr-2"></i>
+                            <span>м. Київ, вул. Хрещатик, 1</span>
+                        </li>
+                        <li class="flex items-center">
+                            <i class="fas fa-envelope mr-2"></i>
+                            <span>info@zeliboba.ua</span>
+                        </li>
+                        <li class="flex items-center">
+                            <i class="fas fa-clock mr-2"></i>
+                            <span>Пн-Нд: 9:00 - 20:00</span>
+                        </li>
+                    </ul>
+                </div>
+                <div>
+                    <h3 class="text-xl font-bold mb-4">Підписка на новини</h3>
+                    <p class="mb-4">Підпишіться на наші новини та отримуйте інформацію про акції та нові надходження.</p>
+                    <form class="flex">
+                        <input type="email" placeholder="Ваш email" class="px-4 py-2 rounded-l-lg text-gray-800 w-full">
+                        <button type="submit" class="bg-blue-500 hover:bg-blue-600 px-4 py-2 rounded-r-lg">
+                            <i class="fas fa-paper-plane"></i>
+                        </button>
+                    </form>
+                </div>
+            </div>
+            <div class="border-t border-blue-600 mt-8 pt-8 text-center">
+                <p>© 2025 Автосалон "Зелибоба". Всі права захищені.</p>
+                <p class="mt-2">Розроблено: Гусар Кирило</p>
+            </div>
+        </div>
+    </footer>
+
+    <script>
+        // Simple animation on scroll
+        document.addEventListener('DOMContentLoaded', function() {
+            const fadeElements = document.querySelectorAll('.fade-in');
+            
+            const fadeInOnScroll = function() {
+                fadeElements.forEach(element => {
+                    const elementTop = element.getBoundingClientRect().top;
+                    const windowHeight = window.innerHeight;
+                    
+                    if (elementTop < windowHeight - 100) {
+                        element.style.opacity = '1';
+                    }
+                });
+            };
+            
+            // Initial check
+            fadeInOnScroll();
+            
+            // Check on scroll
+            window.addEventListener('scroll', fadeInOnScroll);
+            
+            // Button hover effects
+            const buttons = document.querySelectorAll('.btn-hover');
+            buttons.forEach(button => {
+                button.addEventListener('mouseenter', function() {
+                    this.style.transform = 'translateY(-3px)';
+                    this.style.boxShadow = '0 0 20px rgba(0, 115, 230, 0.8)';
+                });
+                
+                button.addEventListener('mouseleave', function() {
+                    this.style.transform = 'translateY(0)';
+                    this.style.boxShadow = '0 0 10px rgba(0, 115, 230, 0.5)';
+                });
+            });
+            
+            // Star rating system
+            const stars = document.querySelectorAll('.stars i');
+            stars.forEach(star => {
+                star.addEventListener('click', function() {
+                    const rating = this.getAttribute('data-rating');
+                    document.getElementById('rating').value = rating;
+                    
+                    // Update star display
+                    stars.forEach((s, index) => {
+                        if (index < rating) {
+                            s.classList.remove('far');
+                            s.classList.add('fas');
+                        } else {
+                            s.classList.remove('fas');
+                            s.classList.add('far');
+                        }
+                    });
+                });
+                
+                // Hover effect
+                star.addEventListener('mouseover', function() {
+                    const rating = this.getAttribute('data-rating');
+                    stars.forEach((s, index) => {
+                        if (index < rating) {
+                            s.classList.remove('far');
+                            s.classList.add('fas');
+                        }
+                    });
+                });
+                
+                star.addEventListener('mouseout', function() {
+                    const currentRating = document.getElementById('rating').value;
+                    stars.forEach((s, index) => {
+                        if (index >= currentRating) {
+                            s.classList.remove('fas');
+                            s.classList.add('far');
+                        }
+                    });
+                });
+            });
+            
+            // Form submission
+            const reviewForm = document.querySelector('form');
+            if (reviewForm) {
+                reviewForm.addEventListener('submit', function(e) {
+                    e.preventDefault();
+                    
+                    // Get form values
+                    const name = document.getElementById('name').value;
+                    const rating = document.getElementById('rating').value;
+                    const reviewText = document.getElementById('review').value;
+                    
+                    if (rating === '0') {
+                        alert('Будь ласка, оберіть рейтинг');
+                        return;
+                    }
+                    
+                    // Here you would normally send the data to the server
+                    // For demo purposes, we'll just show an alert
+                    alert('Дякуємо за ваш відгук, ' + name + '! Ваша оцінка: ' + rating + ' зірок.');
+                    
+                    // Reset form
+                    this.reset();
+                    stars.forEach(star => {
+                        star.classList.remove('fas');
+                        star.classList.add('far');
+                    });
+                    document.getElementById('rating').value = '0';
+                });
+            }
+        });
+    </script>
+</body>
+</html>
